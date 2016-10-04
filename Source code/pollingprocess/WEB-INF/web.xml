@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app>
+
+	<servlet>
+		<servlet-name>Voterlogin</servlet-name>
+		<servlet-class>com.voting.Voterlogin</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>Voterlogin</servlet-name>
+		<url-pattern>/Voterlogin</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>VoteCount</servlet-name>
+		<servlet-class>com.voting.VoteCount</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>VoteCount</servlet-name>
+		<url-pattern>/VoteCount</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>Exit</servlet-name>
+		<servlet-class>com.voting.Exit</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>Exit</servlet-name>
+		<url-pattern>/Exit</url-pattern>
+	</servlet-mapping>
+
+</web-app>

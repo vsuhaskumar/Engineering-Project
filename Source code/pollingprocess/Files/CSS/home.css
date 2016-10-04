@@ -1,0 +1,21 @@
+@CHARSET "ISO-8859-1";
+
+#header
+{	
+	width:1010px;
+	height:200px;
+	width:1010;
+	height:200;
+	align:top;
+}
+
+#content
+{
+	background-image: url('logo.png');
+	background-repeat:no-repeat;
+	width:790px;
+	height:450px;
+	width:790;
+	height:450;
+	float:right;
+}	

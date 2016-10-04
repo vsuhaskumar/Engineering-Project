@@ -1,0 +1,34 @@
+@CHARSET "ISO-8859-1";
+
+#header
+{
+	background-image: url('../images/index/titlebar.png');	
+	width:1010px;
+	height:160px;
+	width:1010;
+	height:160;
+	align:top;
+}
+
+#sidebar
+{
+	background-image: url('../images/Officer/sidebar.png');
+	width:200px;
+	height:298px;				
+	height:298;
+	width:200;
+	float:left;
+}
+	
+#content
+{
+	background-image: url('../images/Officer/content_board.png');
+	background-repeat:no-repeat;
+	width:790px;
+	height:450px;
+	width:790;
+	height:450;
+	float:right;
+}	
+	
+	

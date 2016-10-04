@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app>
+	
+	<servlet>
+		<servlet-name>Officerlogin</servlet-name>
+		<servlet-class>com.login.Officerlogin</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>Officerlogin</servlet-name>
+		<url-pattern>/Officerlogin</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>AdminchangePassword</servlet-name>
+		<servlet-class>com.login.AdminchangePassword</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>AdminchangePassword</servlet-name>
+		<url-pattern>/AdminchangePassword</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>Logout</servlet-name>
+		<servlet-class>com.login.Logout</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>Logout</servlet-name>
+		<url-pattern>/Logout</url-pattern>
+	</servlet-mapping>
+	
+	
+	<servlet>
+		<servlet-name>Managerlogin</servlet-name>
+		<servlet-class>com.login.Managerlogin</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>Managerlogin</servlet-name>
+		<url-pattern>/Managerlogin</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>ManagerchangePassword</servlet-name>
+		<servlet-class>com.login.ManagerchangePassword</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>ManagerchangePassword</servlet-name>
+		<url-pattern>/ManagerchangePassword</url-pattern>
+	</servlet-mapping>	
+	
+	<servlet>
+		<servlet-name>Electoral_District</servlet-name>
+		<servlet-class>com.officer.Electoral_District</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>Electoral_District</servlet-name>
+		<url-pattern>/Electoral_District</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>AddElectoralDistrict</servlet-name>
+		<servlet-class>com.officer.AddElectoralDistrict</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>AddElectoralDistrict</servlet-name>
+		<url-pattern>/AddElectoralDistrict</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>EditElectoralDistrict</servlet-name>
+		<servlet-class>com.officer.EditElectoralDistrict</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>EditElectoralDistrict</servlet-name>
+		<url-pattern>/EditElectoralDistrict</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>DeleteElectoralDistrict</servlet-name>
+		<servlet-class>com.officer.DeleteElectoralDistrict</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>DeleteElectoralDistrict</servlet-name>
+		<url-pattern>/DeleteElectoralDistrict</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>Candidates</servlet-name>
+		<servlet-class>com.officer.Candidates</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>Candidates</servlet-name>
+		<url-pattern>/Candidates</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>AddCandidate</servlet-name>
+		<servlet-class>com.officer.AddCandidate</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>AddCandidate</servlet-name>
+		<url-pattern>/AddCandidate</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>Addimage</servlet-name>
+		<servlet-class>com.officer.Addimage</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>Addimage</servlet-name>
+		<url-pattern>/Addimage</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>AddSymbol</servlet-name>
+		<servlet-class>com.officer.AddSymbol</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>AddSymbol</servlet-name>
+		<url-pattern>/AddSymbol</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>EditCandidate</servlet-name>
+		<servlet-class>com.officer.EditCandidate</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>EditCandidate</servlet-name>
+		<url-pattern>/EditCandidate</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>EditSymbol</servlet-name>
+		<servlet-class>com.officer.EditSymbol</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>EditSymbol</servlet-name>
+		<url-pattern>/EditSymbol</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>DeleteCandidates</servlet-name>
+		<servlet-class>com.officer.DeleteCandidates</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>DeleteCandidates</servlet-name>
+		<url-pattern>/DeleteCandidates</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>Booths</servlet-name>
+		<servlet-class>com.officer.Booths</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>Booths</servlet-name>
+		<url-pattern>/Booths</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>AddBooth</servlet-name>
+		<servlet-class>com.officer.AddBooth</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>AddBooth</servlet-name>
+		<url-pattern>/AddBooth</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>DeleteBooth</servlet-name>
+		<servlet-class>com.officer.DeleteBooth</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>DeleteBooth</servlet-name>
+		<url-pattern>/DeleteBooth</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>EditBooth</servlet-name>
+		<servlet-class>com.officer.EditBooth</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>EditBooth</servlet-name>
+		<url-pattern>/EditBooth</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>Can_add_cancel</servlet-name>
+		<servlet-class>com.officer.Can_add_cancel</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>Can_add_cancel</servlet-name>
+		<url-pattern>/Can_add_cancel</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>Can_edit_cancel</servlet-name>
+		<servlet-class>com.officer.Can_edit_cancel</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>Can_edit_cancel</servlet-name>
+		<url-pattern>/Can_edit_cancel</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>ElectionResult</servlet-name>
+		<servlet-class>com.officer.ElectionResult</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>ElectionResult</servlet-name>
+		<url-pattern>/ElectionResult</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>AddVoterDetail</servlet-name>
+		<servlet-class>com.manager.AddVoterDetail</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>AddVoterDetail</servlet-name>
+		<url-pattern>/AddVoterDetail</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>Vot_add_cancel</servlet-name>
+		<servlet-class>com.manager.Vot_add_cancel</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>Vot_add_cancel</servlet-name>
+		<url-pattern>/Vot_add_cancel</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>Vot_edit_cancel</servlet-name>
+		<servlet-class>com.manager.Vot_edit_cancel</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>Vot_edit_cancel</servlet-name>
+		<url-pattern>/Vot_edit_cancel</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>AddImage</servlet-name>
+		<servlet-class>com.manager.AddImage</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>AddImage</servlet-name>
+		<url-pattern>/AddImage</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>EditVoterDetail</servlet-name>
+		<servlet-class>com.manager.EditVoterDetail</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>EditVoterDetail</servlet-name>
+		<url-pattern>/EditVoterDetail</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>EditImage</servlet-name>
+		<servlet-class>com.manager.EditImage</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>EditImage</servlet-name>
+		<url-pattern>/EditImage</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>DeleteVoter</servlet-name>
+		<servlet-class>com.manager.DeleteVoter</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>DeleteVoter</servlet-name>
+		<url-pattern>/DeleteVoter</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>VotingProcess</servlet-name>
+		<servlet-class>com.manager.VotingProcess</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>VotingProcess</servlet-name>
+		<url-pattern>/VotingProcess</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>Currentstatus</servlet-name>
+		<servlet-class>com.manager.Currentstatus</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>Currentstatus</servlet-name>
+		<url-pattern>/Currentstatus</url-pattern>
+	</servlet-mapping>
+	
+</web-app>
